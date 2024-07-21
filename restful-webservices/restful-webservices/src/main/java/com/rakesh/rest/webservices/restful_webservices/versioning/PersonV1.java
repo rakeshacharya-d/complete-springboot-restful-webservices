@@ -1,0 +1,24 @@
+package com.rakesh.rest.webservices.restful_webservices.versioning;
+
+public class PersonV1 {
+	
+	
+private String name;
+
+public PersonV1(String name) {
+	super();
+	this.name = name;
+}
+
+public String getName() {
+	return name;
+}
+
+@Override
+public String toString() {
+	return "PersonV1 [name=" + name + "]";
+}
+
+
+}
+
